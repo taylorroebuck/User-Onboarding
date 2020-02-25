@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+.onboarding {
+  background: pink;
+  padding: 2%;
+  color: white;
+}

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { withFormik, Form, Field } from "formik";
 import * as Yup from "yup"; // for everything
+import "../App.css";
 
 const UserForm = ({ values, touched, errors, status }) => {
   const [users, setUser] = useState([]);
